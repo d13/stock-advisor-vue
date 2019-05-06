@@ -20,9 +20,9 @@
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import { Stock } from '../../models/models';
-import ZoomReveal from '../layouts/ZoomReveal.vue';
-import Card from '../components/Card.vue';
-import Section from '../components/Section.vue';
+import ZoomReveal from '../shared/layouts/ZoomReveal.vue';
+import Card from '../shared/components/Card.vue';
+import Section from '../shared/components/Section.vue';
 
 @Component({
   components: {

@@ -13,7 +13,7 @@
 import { Component, Vue } from 'vue-property-decorator';
 
 import StockPage from './components/pages/StockPage.vue';
-import Header from './components/components/Header.vue';
+import Header from './components/shared/components/Header.vue';
 
 @Component({
   components: {
